@@ -1,8 +1,8 @@
 package main
 
 import (
-	"hellogo.com/constants"
-	"hellogo.com/logics"
+	"github.com/parkgang/helloworld-go-local-package-module/constants"
+	"github.com/parkgang/helloworld-go-local-package-module/logics"
 )
 
 func main() {

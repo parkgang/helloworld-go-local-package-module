@@ -1,13 +1,13 @@
-module hellogo
+module github.com/parkgang/helloworld-go-local-package-module
 
 go 1.16
 
 require (
-	hellogo.com/constants v0.0.0
-	hellogo.com/logics v0.0.0
+	github.com/parkgang/helloworld-go-local-package-module/constants v0.0.0
+	github.com/parkgang/helloworld-go-local-package-module/logics v0.0.0
 )
 
 replace (
-	hellogo.com/constants v0.0.0 => ./constants
-	hellogo.com/logics v0.0.0 => ./logics
+	github.com/parkgang/helloworld-go-local-package-module/constants v0.0.0 => ./constants
+	github.com/parkgang/helloworld-go-local-package-module/logics v0.0.0 => ./logics
 )
